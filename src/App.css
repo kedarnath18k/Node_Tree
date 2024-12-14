@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 100%; /* Allows resizing based on browser settings */
+  line-height: 1.6;
+  background: #fff;
+  color: #000;
+}
+
+.post {
+  margin: 5px 0; /* Add vertical spacing between posts */
+  padding: 15px; /* Add internal spacing around the content */
+  font-size: 18px; /* Set a readable font size */
+  color: #333; /* Dark gray text for readability */
+  background-color: #f9f9f9; /* Light gray background */
+  border: 1px solid #ddd; /* Light border to separate each title */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.post:hover {
+  background-color: #e0f7fa; /* Highlight background on hover */
+  cursor: pointer; /* Change cursor to indicate interactivity */
+}
